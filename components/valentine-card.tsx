@@ -15,7 +15,7 @@ export function ValentineCard() {
         <div className="relative z-10 flex flex-col items-center gap-6 animate-bounce-in">
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl">
             <Image
-              src="/bear-valentine.jpg"
+              src="/ChatGPT Image 11 févr. 2026, 14_00_38.png"
               alt="Cute bear holding a heart"
               fill
               priority
@@ -72,7 +72,7 @@ export function ValentineCard() {
     <div className="relative z-10 flex flex-col items-center gap-6">
       <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl animate-gentle-bounce">
         <Image
-          src="/bear-valentine.jpg"
+          src="/ChatGPT Image 11 févr. 2026, 14_00_38.png"
           alt="Cute bear holding a heart"
           fill
           priority

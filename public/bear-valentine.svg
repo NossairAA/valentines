@@ -1,0 +1,55 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="200" cy="200" r="200" fill="#fff5f7"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="150" r="70" fill="#8B6F47"/>
+  
+  <!-- Ears -->
+  <circle cx="160" cy="90" r="25" fill="#8B6F47"/>
+  <circle cx="240" cy="90" r="25" fill="#8B6F47"/>
+  <circle cx="160" cy="95" r="12" fill="#6B5537"/>
+  <circle cx="240" cy="95" r="12" fill="#6B5537"/>
+  
+  <!-- Eyes -->
+  <circle cx="185" cy="140" r="8" fill="#000"/>
+  <circle cx="215" cy="140" r="8" fill="#000"/>
+  <circle cx="187" cy="138" r="3" fill="#fff"/>
+  <circle cx="217" cy="138" r="3" fill="#fff"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="160" rx="6" ry="8" fill="#000"/>
+  
+  <!-- Mouth -->
+  <path d="M 200 160 Q 195 170 190 168" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 200 160 Q 205 170 210 168" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="50" ry="60" fill="#8B6F47"/>
+  
+  <!-- Arms -->
+  <ellipse cx="140" cy="230" rx="25" ry="45" fill="#8B6F47" transform="rotate(-30 140 230)"/>
+  <ellipse cx="260" cy="230" rx="25" ry="45" fill="#8B6F47" transform="rotate(30 260 230)"/>
+  
+  <!-- Paw pads on arms -->
+  <circle cx="125" cy="270" r="8" fill="#6B5537"/>
+  <circle cx="275" cy="270" r="8" fill="#6B5537"/>
+  
+  <!-- Legs -->
+  <ellipse cx="175" cy="310" rx="20" ry="35" fill="#8B6F47"/>
+  <ellipse cx="225" cy="310" rx="20" ry="35" fill="#8B6F47"/>
+  
+  <!-- Paw pads on legs -->
+  <ellipse cx="175" cy="345" rx="15" ry="10" fill="#6B5537"/>
+  <ellipse cx="225" cy="345" rx="15" ry="10" fill="#6B5537"/>
+  
+  <!-- Heart held by bear -->
+  <g transform="translate(140, 160)">
+    <!-- Heart shape -->
+    <path d="M 0,-8 C -8,-15 -20,-15 -20,-5 C -20,5 0,20 0,20 C 0,20 20,5 20,-5 C 20,-15 8,-15 0,-8 Z" fill="#E31B23" stroke="#C71F1F" stroke-width="1"/>
+  </g>
+  
+  <!-- Blush -->
+  <ellipse cx="135" cy="150" rx="12" ry="8" fill="#FFB6D9" opacity="0.6"/>
+  <ellipse cx="265" cy="150" rx="12" ry="8" fill="#FFB6D9" opacity="0.6"/>
+</svg>
