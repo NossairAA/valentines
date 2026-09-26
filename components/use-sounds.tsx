@@ -37,26 +37,15 @@ export function useSounds() {
     }, duration * 1000 + 50)
   }, [])
 
-  const tryPlayAudioFile = useCallback((path: string) => {
-    try {
-      const a = new Audio(path)
-      a.play().catch(() => {})
-    } catch (e) {}
-  }, [])
-
   const playClick = useCallback(() => {
-    // prefer short file if present, fall back to tone
-    tryPlayAudioFile("/sounds/click.mp3")
     playTone(880, 0.05, 0.03)
-  }, [playTone, tryPlayAudioFile])
+  }, [playTone])
 
   const playCheer = useCallback(() => {
-    tryPlayAudioFile("/sounds/cheer.mp3")
-    // quick melodic burst
     playTone(660, 0.12, 0.06)
     setTimeout(() => playTone(880, 0.12, 0.05), 120)
     setTimeout(() => playTone(990, 0.14, 0.05), 260)
-  }, [playTone, tryPlayAudioFile])
+  }, [playTone])
 
   return { playClick, playCheer }
 }
